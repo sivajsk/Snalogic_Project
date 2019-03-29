@@ -1,0 +1,127 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-mysqldatabaseaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "MySql_DB"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "JdbcDriversProp": {
+                "value": []
+            },
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "AuthenticationMode": {
+                        "value": "Password"
+                    },
+                    "PassPhrase": {
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "IhkeKSa3YG7CQWfePprK0g==",
+                        "sym_key": "WrtHom2DJLEIzT9gK8yH0rsc4cf2UjFf0MN4DfZiNL4FvgtW6MBgIg783Sx/DCyB0pGyQ+E3BPKKzaT+YFg4C/RSkHbM307KCq+MHBHw/h0HFk6J4agjFs8MSW7fMqEPUJS+s8uNpnTwVUBBcoEuPWBuZK6Ri7vy10fl8hwNJZFpd7TBMya9YJRVloGwemNcO8RL+HWrsx5NTmAZuF0Oj+/N5nU8kND/5bUaQ8ICW+gAV2ND2mFallrOe1gnCYkkNt3b9okRC7artVwPRWyO4nWJDFMqTWOP1NTG2+e+8XkSTzktb7dxj3IN1IYdLkgPLxWmqw32KDGdhkLlOPUnzw==",
+                        "value": "VQ1RGiasCBCdpxNuH6kuEw=="
+                    },
+                    "databaseName": {
+                        "value": "mysqldxc"
+                    },
+                    "hostname": {
+                        "value": "mysqldxc.c6wnjufgletc.us-east-1.rds.amazonaws.com"
+                    },
+                    "keyAlias": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "keyStoreURL": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "keystorePassword": {
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "nQDF/COC/AHqpOTJ8Dh2FA==",
+                        "sym_key": "o5c7IkKpb19vssw1K1z+4KJfGqaVdtbYv6yExbKqqxrV4pXIfvhte2VNU2bhjA6tN9bnsvhELOxP4evXGnbcsG2YaZYaRyjEm/ORNMszgF2uFIMCmxPmuRGFsz3nI7j7LNZw5VUwIBaVoXv2FZIgK2lxdvvzO1z6GIlOOKLhbuHgkfunypG0s5tobjApDhs8/dj2mfelizWcss5Tls0o+DMSG43JshwDG2zDYEEygQGooKSi7p2DCC+BjbpwRiPcih0xADDix94B10zf3gKio1s6Z+I7Ohal+OzAzPxUklQSTr+xYPvat+XrpJ0n3AgReSu5XomZ7epKSR63xjfE6Q==",
+                        "value": "Gxdltobeq318oqvW4/DXmg=="
+                    },
+                    "password": {
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "HL34Kk4R3QwVyXfpxUpM3Q==",
+                        "sym_key": "vr12ZNrifrnCxwC9REHTQMKXhwhZoHQ+Wkkm6UOUt++RrubZUid7sTLpQBQPewFDFYarDhMvNgicdS2d90P0T6S8Uzl1Ng2BAu6bJvfuygiY5qty38/Zea+VhQIcYAcPgrApbzvRW1htWxxAT4AXvYs8cgPAbRrRRG2g+t8cTb6LV3ScY3ar9BZGNql9NWSYXeBwGy8ibVNEcaJZt+NqYEEUBmuhix5/fk0b6SJaErvsiOlJc0BNUPHCYcSvGMbjbXAv2FvUcOX1UD8eJGuskaxZud2x9dh82owD2czYd8kvOWNr8G9eGpPVP/1QaC5l/z9bHs6CD9iE4nxV1pov/g==",
+                        "value": "cVodhy48KREcGnZLI7yB/Q=="
+                    },
+                    "portNumber": {
+                        "value": 3306
+                    },
+                    "sshTunnelConfiguration": {
+                        "value": false
+                    },
+                    "sshhostname": {
+                        "value": null
+                    },
+                    "sshpassword": {
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "sHm1SC8D8/u4uRAuto0Qtw==",
+                        "sym_key": "vlezPyFwZ84CEgiNdgjiSxXwHVdWj5AIvuqF7014YrhdhVqfJCMxZxhhIVJi0cTbFQX2poohGUNx1D//qwgrEiUXRGuA93sR8PGtPSHVm+xeqIYOHe/gkwnvfhHH4kY2Fl+Ls74+CWipjbLErXvudn4r/qeB3yx672fJHcQy0jfTTeQ+j8j36aydt6USKj3a+asMMeJBTmmSXqTBHuwd7MSBgkbglVDAARLaS1OB1ykAZN+mv+uDYd9wP4GcvTSFP4q7Frc8WOmJZhi71gwQ6nP/skl5UbXD7QM/Dabk77Eqs9VrYY7TLfAGa9iFTP/ghCIzSfshlVUKiCpOcBDfcg==",
+                        "value": "rDuvwEeQ0dQZTl/NzKkxzQ=="
+                    },
+                    "sshusername": {
+                        "value": null
+                    },
+                    "username": {
+                        "value": "mysqldxc"
+                    }
+                }
+            },
+            "jdbcDriverClass": {
+                "value": "com.mysql.jdbc.Driver"
+            }
+        },
+        "view_serial": 100
+    }
+}

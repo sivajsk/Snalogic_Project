@@ -1,0 +1,58 @@
+{
+    "class_id": "com-snaplogic-snaps-email-smtpaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Email_Test"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "attachmentPassword": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "u+nlRDc95xiYBWri6vT26A==",
+                "sym_key": "OH5pUCnygWXMof2AeW+wRQwhOuPXqVldZPkgTI0FjYtI8Dr/sYvA1KpLVkzV9C6k+dyrzalqTsjNGd+B/v9j3JXM3b6V3pYABvIeoWoY+fs8btvHUnVBlvD+zLUqlob6cqX0y5HhHSdlju6zrVi06exAYDLV8bWzjHobp5jNHe690Cvteb7T9nWrbn0B3ZDoj2iYEpVU69bVf3Riy1XcJWaJjXNPvNzJte20gOiiAlAl59spaIVNJ4fHq7iuqZzXkGV3IPyM6vCQgI9oEqQxy2isXM/EH7qOX2qs3GbhywK0nxsiz8bcgGdTT7OuffIAn2DOPt+tZokMXR17vXOz4g==",
+                "value": "Vxw5U8lydLiPkCgD1DI63A=="
+            },
+            "connectionTimeout": {
+                "value": 60000
+            },
+            "emailId": {
+                "value": "dxcblrsnap@gmail.com"
+            },
+            "mailProperties": {
+                "value": []
+            },
+            "password": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "K6g/bEMsp/GHt09H2jD3rA==",
+                "sym_key": "aqP5oz0/OtDGEsOiNFAeYMGijzJAI9zBtqbi01z9YfUXMBedTbCRPbCJBs23FsQld9taxYwhm9YkKExU4GzB86n3Jj6dbCPBfb2ZFGIx+G4aGkhlReZUqaHxYvAH/i/ejvEXYN/td7XIJH3FtNSZjJj7QzG0/tLdeOQQCRFSE0str13OB7KOpo638/OlODiHGdQrHfHqCt887yLq5Hdae+y2SSX2cIukFDEP5r3n5Wnl/MJE+sqceqxsRVIbD1LptsvFXJAZJr8BWMQPHO8IdouieJPOh4M5Rz+IURF6eXvA+ggs5eXFpz2MeK7Z/Y2V164UzZuPcDd2wQ0SsqdVSQ==",
+                "value": "JbwjPyA623XXXLRvv+gqUA=="
+            },
+            "port": {
+                "value": "465"
+            },
+            "readTimeout": {
+                "value": 60000
+            },
+            "secureConnection": {
+                "value": "SSL"
+            },
+            "serverDomain": {
+                "value": "smtp.gmail.com"
+            },
+            "writeTimeout": {
+                "value": 60000
+            }
+        },
+        "view_serial": 100
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "class_id": "com-snaplogic-snaps-rest-restbasicauthaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Rest_test"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "password": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "GnjpEcaYnKWol9geQuqBWg==",
+                "sym_key": "m/Wj9eGFiE+4bhlUiW1k/aYAlKjK5SMwdWliaUlhsrsK7RFn4ERkf+L0QCk0Dy7WXDYTnOD2VaxYhU0nZmnFB6CjhmLG6UH6K9FZg+g2CM858GEduOVuxFk1SWPkRioPc6ZfJ6OICQMgKU3v1FbgF3OMe0zEXEXg3cyD0H9s4MCpB2uFvdbo0Um4rmQ8BZ4A/gTBFnDD90fNd6bA4VtcFDh1RfWlKMTszCtiIYl+quW18JwNhcmEwVFP+HvuERdiK6voBVuz+7EbwoyqDCHMB94RKz2ctlYoUY9jg4ZAaxCBcPl49oATkfCMH+f674dz4YFEU6pbCM7GhMGkgKdYAw==",
+                "value": "vZV/sAud5cxi4Tpys5K6XQ=="
+            },
+            "username": {
+                "value": "siva.jayaram@dxc.com"
+            }
+        },
+        "view_serial": 100
+    }
+}
