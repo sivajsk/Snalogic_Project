@@ -1,0 +1,73 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "task task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "regular",
+        "llfeed_token": "BN0dIMhzpD7HFPFWWVo9QBEqU6XvRMky",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": "siva.jayaram@dxc.com",
+            "states": [
+                "Completed",
+                "Stopped"
+            ]
+        },
+        "pipeline_path": "task",
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2019-03-29",
+        "start_time": "11:50:00",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 1,
+            "on": {
+                "day": []
+            }
+        },
+        "start_date": "2019-03-29",
+        "start_time": "11:50:00",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
